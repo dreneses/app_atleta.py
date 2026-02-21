@@ -20,5 +20,5 @@ st.subheader("Tu evolución hacia Atleta")
 datos = pd.DataFrame({'Día': [1, 2, 3, 4], 'Carga': [65, 67, 69.5, 71]})
 st.line_chart(datos.set_index('Día'))
 
-st.info("Objetivo: Dejar de ser paciente para volver a ser atleta.")
+st.info("Objetivo: Volver a ser atleta.")
 
